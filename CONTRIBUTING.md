@@ -9,8 +9,10 @@ Cal Webring is open to current UC Berkeley students, alumni, and faculty with a 
 
 ```ts
    {
-     name: "Your Name",
-     url: "https://your-site.example.com",
+      name: "Your Name",
+      url: "https://your-site.example.com",
+      year: 2030,
+      major: "Computer Science",
    },
 ```
 
