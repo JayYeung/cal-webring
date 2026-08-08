@@ -24,4 +24,10 @@ export type Member = {
         year: 2030,
         major: "Computer Science",
     },
+    {
+        name: "Jordyn Hale",
+        url: "https://jordynhale.github.io/",
+        year: 2030,
+        major: "Computer Science",
+    },
   ];
