@@ -7,15 +7,27 @@ export type Member = {
   
   export const members: Member[] = [
     {
-      name: "Angela Wu",
-      url: "https://angelawu.dev",
-      year: 2028,
-      major: "Data Science",
-    },
-    {
-        name: "Angela Wu (placeholder)",
-        url: "https://angelawu.dev/contact",
+        name: "Angela Wu",
+        url: "https://angelawu.dev",
         year: 2028,
         major: "Data Science",
+    },
+    {
+        name: "Allison Lin",
+        url: "https://linallison.github.io/",
+        year: 2030,
+        major: "Computer Science",
+    },
+    {
+        name: "Linnea Forslin",
+        url: "https://linneaforslin.github.io/",
+        year: 2030,
+        major: "Computer Science",
+    },
+    {
+        name: "Jordyn Hale",
+        url: "https://jordynhale.github.io/",
+        year: 2030,
+        major: "Computer Science",
     },
   ];
