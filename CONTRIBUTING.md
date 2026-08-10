@@ -1,6 +1,6 @@
 # Joining Cal Webring
 
-Cal Webring is open to current UC Berkeley students, alumni, and faculty with a personal website.
+Cal Webring is open to current UC Berkeley students, alumni, and faculty with a personal website/portfolio.
 
 ## How to join
 
