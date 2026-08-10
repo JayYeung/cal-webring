@@ -9,12 +9,12 @@ export default function BadgePage() {
   
         <pre>
           {`<div style="font-family: monospace; font-size: 12px; display: flex; align-items: center; gap: 8px;">
-      <a href="https://calwebring.com/prev?current=YOUR_URL_HERE">←</a>
-      <a href="https://calwebring.com">
-        <img src="https://calwebring.com/badge.png" width="36" />
-      </a>
-      <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
-    </div>`}
+            <a href="https://calwebring.com/prev?current=YOUR_URL_HERE">←</a>
+            <a href="https://calwebring.com">
+              <img src="https://calwebring.com/badge.png" width="36" />
+            </a>
+            <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
+          </div>`}
         </pre>
   
         <p>

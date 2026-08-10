@@ -60,8 +60,26 @@ export default function HomePage() {
     <div className="w-full md:w-150 shrink-0">
       <RingGraph />
     </div>
-        </div>
-      </div>
+    
+
+    </div>
+    <div
+      style={{
+        fontFamily: "monospace",
+        fontSize: "12px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: "8px",
+      }}
+    >
+      <a href="https://calwebring.com/prev?current=YOUR_URL_HERE">←</a>
+      <a href="https://calwebring.com">
+        <img src="https://calwebring.com/badge.png" width="36" />
+      </a>
+      <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
+    </div>
+    </div>
     </main>
   );
 }
