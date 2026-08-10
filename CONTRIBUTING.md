@@ -5,9 +5,30 @@ Cal Webring is open to current UC Berkeley students, alumni, and faculty with a 
 ## How to join
 
 1. Fork this repo.
-2. 
+2. Open `members.ts` and add yourself to the `members` array. If you're
+   faculty rather than a student, put your department under `major` and
+   `"Faculty"` under `year`:
 
-3. Grab the badge snippet from [calwebring.com/badge](https://cal-webring.vercel.app/badge) and add it to your site, replacing `YOUR_URL_HERE` with the same URL you used in step 2.
+```ts
+   {
+      name: "Your Name",
+      url: "https://your-site.example.com",
+      year: "2030",
+      major: "Computer Science",
+   },
+```
+
+3. Copy this snippet into the homepage of your site, replacing `YOUR_URL_HERE` with the same URL you used in step 2:
+
+```html
+   <div style="font-family: monospace; font-size: 12px;">
+     <a href="https://calwebring.com/prev?current=YOUR_URL_HERE">←</a>
+     <a href="https://calwebring.com">
+       <img src="https://calwebring.com/badge.png" width="20" />
+     </a>
+     <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
+   </div>
+```
 4. Open a pull request. Include a link to your live site in the PR description so it can be checked before merging.
 
 ## Guidelines
