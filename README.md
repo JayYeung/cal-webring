@@ -1,6 +1,6 @@
 # Cal Webring
 
-A webring connecting personal websites of UC Berkeley students, alumni, and faculty.
+A [webring](https://en.wikipedia.org/wiki/Webring) connecting personal websites of UC Berkeley students, alumni, and faculty.
 
 *Inspired by [waterloo's cs webring](https://cs.uwatering.com).*
 
