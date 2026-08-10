@@ -21,12 +21,12 @@ Cal Webring is open to current UC Berkeley students, alumni, and faculty with a 
 3. Copy this snippet into the homepage of your site, replacing `YOUR_URL_HERE` with the same URL you used in step 2:
 
 ```html
-   <div style="font-family: monospace; font-size: 12px;">
-     <a href="https://calwebring.com/prev?current=YOUR_URL_HERE">←</a>
-     <a href="https://calwebring.com">
-       <img src="https://calwebring.com/badge.png" width="20" />
-     </a>
-     <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
+   <div style="font-family: monospace; font-size: 12px; display: flex; align-items: center; gap: 8px;">
+      <a href="https://calwebring.com/prev?current=YOUR_URL_HERE">←</a>
+      <a href="https://calwebring.com">
+         <img src="https://calwebring.com/badge.png" width="36" />
+      </a>
+      <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
    </div>
 ```
 4. Open a pull request. Include a link to your live site in the PR description so it can be checked before merging.
