@@ -16,7 +16,7 @@ Cal Webring is open to current UC Berkeley students, alumni, and faculty with a 
    },
 ```
 
-3. Copy this snippet into your site, replacing `YOUR_URL_HERE` with the same URL you used in step 2:
+3. Copy this snippet into the homepage of your site, replacing `YOUR_URL_HERE` with the same URL you used in step 2:
 
 ```html
    <div style="font-family: monospace; font-size: 12px;">
