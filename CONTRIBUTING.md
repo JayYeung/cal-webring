@@ -16,7 +16,17 @@ Cal Webring is open to current UC Berkeley students, alumni, and faculty with a 
    },
 ```
 
-3. Grab the badge snippet from [calwebring.com/badge](https://cal-webring.vercel.app/badge) and add it to your site, replacing `YOUR_URL_HERE` with the same URL you used in step 2.
+3. Copy this snippet into your site, replacing `YOUR_URL_HERE` with the same URL you used in step 2:
+
+```html
+   <div style="font-family: monospace; font-size: 12px;">
+     <a href="https://calwebring.com/prev?current=YOUR_URL_HERE">←</a>
+     <a href="https://calwebring.com">
+       <img src="https://calwebring.com/badge.png" width="20" />
+     </a>
+     <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
+   </div>
+```
 4. Open a pull request. Include a link to your live site in the PR description so it can be checked before merging.
 
 ## Guidelines
