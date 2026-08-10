@@ -13,8 +13,6 @@ export default function BadgePage() {
   <a href="https://calwebring.com">
     <img src="https://calwebring.com/badge.png" width="20" />
   </a>
-  Cal Webring
-  <a href="https://calwebring.com/random?current=YOUR_URL_HERE">🎲</a>
   <a href="https://calwebring.com/next?current=YOUR_URL_HERE">→</a>
 </div>`}
         </pre>

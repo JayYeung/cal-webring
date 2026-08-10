@@ -1,13 +1,32 @@
 import { members } from "../members";
+import RingGraph from "./RingGraph";
+
 
 export default function HomePage() {
   return (
     <main>
       <div className="max-w-2xl mx-auto p-8">
 
-      <h1 className="text-5xl font-bold text-[#003262] mb-2">Cal Webring</h1>
-      <p className="text-base text-gray-600 mb-8">A webring connecting UC Berkeley students' personal sites.</p>
+      <h1 className="text-5xl font-bold text-[#003262] mb-4">UC Berkeley Webring</h1>
+      <p className="text-base text-gray-600 mb-5">   __________ </p>
+      <p className="text-base text-gray-600 mb-8">A webring connecting the personal websites and portfolios of Berkeley students, alumni, and faculty.</p>
 
+      <p className="text-base text-gray-600 mb-8 max-w-xl">
+  A webring is an old-school way of connecting personal websites — each
+  site links to the next and previous one in the ring, so you can click
+  through a whole community of pages instead of relying on search
+  engines. Want to join?{" "}
+  
+   <a href="https://github.com/wuuski/cal-webring"
+    className="underline text-[#064077] hover:text-[#B8860B] transition-colors"
+  >
+    Fork the repo and open a pull request
+  </a>
+  .
+</p>
+
+      <div className="flex flex-col md:flex-row gap-8 items-start">
+    <div className="flex-1">
       <h2 className="text-2xl font-semibold text-[#003262] mb-4">Members</h2>
       <table className="border-collapse">
         <thead>
@@ -35,6 +54,13 @@ export default function HomePage() {
           ))}
         </tbody>
       </table>
+    </div>
+      
+      
+    <div className="w-full md:w-150 shrink-0">
+      <RingGraph />
+    </div>
+        </div>
       </div>
     </main>
   );
