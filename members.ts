@@ -36,4 +36,10 @@ export type Member = {
         year: "2029",
         major: "Data Science",
     },
+    {
+        name: "Jay Yeung",
+        url: "https://jayyeung.vercel.app/",
+        year: "2027",
+        major: "Computer Science",
+    },
   ];
