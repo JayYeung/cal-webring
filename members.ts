@@ -30,4 +30,10 @@ export type Member = {
         year: "2030",
         major: "Computer Science",
     },
+    {
+        name: "Alison Chen",
+        url: "https://alisonchen2019.github.io/",
+        year: "2029",
+        major: "Data Science",
+    },
   ];
